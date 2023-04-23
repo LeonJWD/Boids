@@ -9,7 +9,7 @@ import static java.lang.Math.sqrt;
 public class BoidSimulation extends JPanel implements Runnable {
 
 
-	private static final int DELAY = 40; // in milliseconds
+	private static final int DELAY = 60; // in milliseconds
 	static int width = 1200;
 	static int height = 1000;
 	ArrayList<Boid> objectArraylist = new ArrayList<>();
